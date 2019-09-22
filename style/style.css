@@ -1,0 +1,202 @@
+/*star body*/
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/*End Body*/
+
+/*start debug*/
+.bg-blue{
+    background-color: rgb(126, 193, 196);
+}
+.bg-red{
+    background-color: #eeeeee;
+}
+.bg-green{
+    background-color:  rgb(231, 161, 161);
+}
+.bg-white{
+    background-color: whitesmoke; 
+} 
+/*end debug*/
+
+/*start Container*/
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/*end container*/
+
+/*Start Logo*/
+.logo{
+    text-align: center;
+}
+/*End Logo*/
+
+/*Start Menu Primer*/
+.menu-primer ul{
+    background-color: rgb(231, 161, 161);
+    border-radius: 4px;
+}
+
+.menu-primer li{
+    border-right: 1px solid #eeeeee;
+    display: inline-block;
+  
+}
+.menu-primer a{
+    color: rgb(231, 161, 161);
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-primer li a:hover{
+    background-color: aqua (231, 161, 161);
+    color: antiquewhite;
+    text-decoration: none;
+}
+.menu-primer .active{
+    background-color: beige;
+    color: yellowgreen;
+    text-decoration: none;
+}
+/*End Menu Primer*/
+
+/*Start Anchor/Hyperlink*/
+a:link
+a:visited
+{
+    color: bisque;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active
+/*End Anchor/Hyperlink*/
+
+/*Start Heading*/
+h1, h2, h3, h4 {
+    font-weight: 400px;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+ h2{
+    font-size: 20px;
+    padding: 0 20px;
+ }  
+ h3 {
+    font-size: 18px;
+    color: aliceblue;
+ } 
+ h4 {
+    font-size: 14px;
+ }
+/*End Heading*/
+
+/*start Jumbotron*/
+.jumbotron{
+    background-color: rgb(231, 161, 161);
+    color: aliceblue;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.judul {
+    padding-left: 10px;
+}
+/*End Jumbotron*/
+
+/*Start Main*/
+.main-home-one{
+    float: left;
+    width:49%;
+}
+.main-home-two{
+    float: right;
+    width: 49%
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi{
+    height: 200px;
+}
+
+/*End Main*/
+
+/*Start Layanan Table*/
+
+
+.layanan-table{
+    border: 1px solid #eaecef;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+.layanan-table th{
+    background-color:rgb(126, 193, 196);
+
+}
+
+.layanan-table td{
+    text-align: center;
+}
+/*End Layanan Table*/
+
+
+/*Start Box*/
+.box-heading{
+    background-color: #eaecef;
+    border: 1px solid #707781;
+    border-radius: 3px 3px 0 0;
+    padding: 10px 20px;
+    text-transform: uppercase
+
+}
+.box-isi{
+    background-color: aliceblue;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+.media li{
+    display: inline-block;
+    margin-right:65px;
+}
+/*End Box*/
+.galery ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.galery ul li{
+    list-style: none;
+    margin:  0 20px;
+}
+.galery img{
+    float: left;
+}
